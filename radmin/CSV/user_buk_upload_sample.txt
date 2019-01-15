@@ -1,0 +1,5 @@
+bulkemail1@email.com,nick name1,password1,name1,1,1970-08-11,113,gujarat,amdavad,9901212345,1,56,22,2,51,35,11,52,this sample profile headline1,1,2
+bulkemail2@email.com,nick name2,password2,name2,2,1975-06-26,113,gujarat,rajkot,9901267890,1,57,23,2,51,35,11,52,this sample profile headline2,1,2
+bulkemail3@email.com,nick name3,password3,name3,1,1979-05-02,113,gujarat,surat,9901212445,1,50,21,2,51,35,11,52,this sample profile headline3,1,2
+bulkemail4@email.com,nick name4,password4,name4,2,1980-01-09,113,gujarat,nadiad,9901217645,1,45,20,2,51,35,11,52,this sample profile headline4,1,2
+bulkemail5@email.com,nick name5,password5,name5,1,1960-02-08,113,gujarat,anand,9901219945,1,41,19,2,51,35,11,52,this sample profile headline4,1,2

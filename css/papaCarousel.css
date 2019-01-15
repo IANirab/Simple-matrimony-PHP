@@ -1,0 +1,89 @@
+/*
+---------------------------------------------------------------------
+    Required styles - pls use it!
+    https://github.com/zgrybus/papaCarousel.git
+---------------------------------------------------------------------
+*/
+@-webkit-keyframes progressBarAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes progressBarAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.prev-btn {
+  left: 15px;
+}
+.next-btn {
+  right: 15px;
+}
+.papa-container {
+  position: relative;
+  overflow: hidden;
+}
+.papa-item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.progress-bar.animate {
+  -webkit-animation: progressBarAnimation linear infinite;
+  animation: progressBarAnimation linear infinite;
+}
+
+/*
+---------------------------------------------------------------------
+    Optional styles - just for visual style.
+    https://github.com/zgrybus/papaCarousel.git
+---------------------------------------------------------------------
+*/
+.prev-btn,
+.next-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background: white;
+  border-radius: 50%;
+}
+.prev-btn svg,
+.next-btn svg {
+  fill: #316e92;
+}
+.progress-bar {
+  height: 5px;
+  background: white;
+}

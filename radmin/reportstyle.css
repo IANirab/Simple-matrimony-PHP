@@ -1,0 +1,86 @@
+body {
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 10px;
+    padding: 0;
+}
+.reportbody {
+	font-size: 12px;
+	color: #000;
+	width:635px;
+	border:dotted 1px #CCCCCC;
+}
+
+.reportbody2 {
+	float:left;
+}
+
+
+.reportlogo { width:184px; height:75px; border:dotted 1px #CCCCCC; margin:10px; float:left;}
+
+h2 { font-size:18px; font-weight:bold; padding:0px; margin:5px; margin-top:17px;}
+h1 { clear:left; font-size:24px; background-color:#FFFFFF; padding:3px; margin:0px; margin-bottom:5px; margin-top:10px; text-align:center; text-transform:uppercase; border-top:dotted 1px #CCCCCC;}
+address { color:#333333; line-height:18px; font-size:11px;}
+.reporttable { width:100%; float:left;}
+.reporttable th { background-color:#F3F3F3; font-size:11px; text-transform:capitalize; text-align:left; padding:5px; border-top:dotted 1px #CCCCCC; border-bottom:none 1px #CCCCCC;}
+.reporttable td { padding:5px; text-align:left; font-size:12px; border-top:dotted 1px #CCCCCC;}
+.reporttable td a {text-decoration:none; color:#da2218;}
+.reporttable td a:hover {text-decoration:underline; color:#333;}
+.pay_review {width:100%; border:0px;}
+.pay_review td {text-align:left; font-size:12px; padding:3px 5px;}
+ 
+.reportbuttons { position:relative; float:right; margin-top:5px; margin-right:5px;}
+.reportbuttons form { display:inline; margin:0px; padding:0px;}
+.reportbuttons div{ position:absolute; right:10px; top:10px;}
+.printicon {width:25px; height:25px; background-image:url(images/printicon.gif); background-repeat:no-repeat; background-position:top left; border:none; background-color:transparent; cursor:pointer; cursor:hand;}
+.excellicon {width:25px; height:25px; background-image:url(images/excellicon.gif); background-repeat:no-repeat; background-position:top left; border:none; background-color:transparent; cursor:pointer; cursor:hand;}
+.pdficon {width:25px; height:25px; background-image:url(images/pdficon.gif); background-repeat:no-repeat; background-position:top left; border:none; background-color:transparent; cursor:pointer; cursor:hand;}
+
+
+.reportcell1 { font-size:12px; font-weight:bold; text-align:left; border-top:dashed 1px #CCCCCC;}
+.reportcell2 { font-size:12px; font-weight:normal; text-align:left; border-top:dashed 1px #CCCCCC;}
+/* .reportcell4 a { font-size:12px; font-weight:normal; text-align:left;  padding:3px; text-decoration:none;color:#202020;}*/
+.reportcell5 { font-size:12px; font-weight:normal; text-align:left; }
+
+.grborder { margin:3px; border:none 1px #CCCCCC; width:99%; }
+.grhead { text-align:left; font-size:12px; font-weight:bold; border-right:dotted 1px #CCCCCC; border-bottom:dotted 1px #CCCCCC; padding-left:3px;}
+.gridhead { font-size:18px; font-weight:bold; margin:0px; padding:0px; background-color:#EEEEEE; text-transform:uppercase; padding:3px;}
+.gritem { font-size:12px; color:#000; border-right:dotted 1px #CCCCCC; border-bottom:dotted 1px #CCCCCC; padding:3px;}
+
+.labeltable { width:670px;}
+.labeltd { width:50%; padding:5px; border:dotted 1px #CCCCCC; font-size:12px; color:#000}
+
+.subtable { width:607px; float:left;}
+.subtable th { background-color:#F3F3F3; font-size:11px; text-transform:capitalize; text-align:left; padding:5px; border-top:dotted 1px #CCCCCC; border-bottom:none 1px #CCCCCC;}
+.subtable td { padding:5px; padding-right:10px; text-align:right; font-size:12px; font-weight:bold; border-top:dotted 1px #CCCCCC;}
+
+.bottom_table {width:605px; float:left;}
+.bottable { width:295px;}
+.bottable th { background-color:#F3F3F3; font-size:11px; text-transform:capitalize; text-align:left; padding:5px;}
+.bottable td { vertical-align:top; padding:3px; padding-right:5px;  text-align:left; font-size:11px; font-weight:bold;}
+.inner_txt{font-size:11px; font-weight:normal !important;}
+
+.print_pdf_main {width:607px; height:auto; float:left; border:1px dotted #CCCCCC;}
+.main_table {width:605px;}
+.main_indi{width:607px; float:left;}
+.main_indi_left{margin:2px 0px; float:left; width:300px; padding:5px 0px 0px 5px; font:bold 9pt verdana; color:#333; border:1px solid #999; height:75px;}
+.main_indi_right{float:left; margin-right:0px; width:295px;}
+.indi_txt{width:90px; float:left; font:bold 9pt verdana; color:#333; padding:4px 0px; margin-left:5px;}
+.indi_txt2{width:90px; float:left; font:bold 9pt verdana; color:#333; padding:4px 0px; margin-left:0px;}
+.indi_bot{width:20px; float:left; font:bold 9pt verdana; color:#333; padding:4px 0px;}
+
+#prot {margin:5px;}
+
+
+
+
+.head1 { background-color:#333333; text-align:left; font-size:12px; font-weight:normal; padding:5px; color:#99cc00; font-weight:bold;}
+
+.head2 { background-color:#d6eb99; text-align:left; font-size:11px; font-weight:bold; padding:5px; color:#000000;}
+
+.head3 { background-color:#bdde5a; text-align:left; font-size:12px; font-weight:bold; padding:5px; color:#000000;}
+.head_mar { text-align:left; font-size:11px; font-weight:bold; padding:5px; color:#000000;}
+
+.bluelink { color:#0000CC; text-decoration:none}
+
+.right {text-align:right !important;}

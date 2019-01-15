@@ -1,0 +1,72 @@
+/* liScroll styles */
+
+
+
+.tickercontainer { /* the outer div */
+
+margin:3px 0 0 10px; 
+overflow: hidden; 
+width:640px;
+}
+.tickercontainer .mask { /* that serves as a mask. so you get a sort of padding both left and right */
+color:#000;
+overflow:hidden !important;
+float:left;
+width:98%; 
+height:230px;
+padding:0; 
+
+}
+ul.newsticker { /* that's your list */
+position: relative;
+margin-left: 20px;
+list-style-type: none;
+margin: 0;
+padding: 0;
+width:100%;
+float:left;
+}
+ul.newsticker li {
+float: left; /* important: display inline gives incorrect results when you check for elem's width */
+margin: 0;
+padding-right: 15px;
+color:#b00c22;
+width:145px;
+
+
+/*background: #fff;*/
+}
+ul.newsticker li span{ float:left; width:100%;}
+ul.newsticker li span p{ float:left; margin:0; color:#B00C22;}
+ul.newsticker ul li a {
+white-space: nowrap;
+padding: 0;
+color: #000;
+font: bold 10px Verdana;
+margin: 0 0px 0 0; height:160px; width:92px; 
+float:left;
+} 
+ul.newsticker li span h3{color: #ad1622;
+    float: left;
+    font-size: 12px;
+    font-weight: normal;
+    height: auto;
+    margin: 3px 0;
+    text-align: center;
+    width: 145px;}
+ul.newsticker span {
+
+} 
+
+#webticker2{ float:left;
+}
+
+#webticker2 li { float:left; width:auto !important;
+  /* important: display inline gives incorrect results when you check for elem's width */
+margin: 0;
+padding-left: 15px;
+height:100px; 
+color:#4b0707;
+font-weight:bold;
+/*background: #fff;*/
+}

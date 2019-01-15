@@ -1,0 +1,70 @@
+[16-Oct-2018 12:55:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/paroshic/public_html/mechat/php/functions.php:20
+Stack trace:
+#0 /home/paroshic/public_html/mechat/php/functions.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/paroshic/public_html/mechat/manager/php/functions.php(6): include('/home/paroshic/...')
+#2 /home/paroshic/public_html/mechat/manager/index.php(4): include('/home/paroshic/...')
+#3 {main}
+  thrown in /home/paroshic/public_html/mechat/php/functions.php on line 20
+[16-Oct-2018 12:55:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/paroshic/public_html/mechat/php/functions.php:20
+Stack trace:
+#0 /home/paroshic/public_html/mechat/php/functions.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/paroshic/public_html/mechat/manager/php/functions.php(6): include('/home/paroshic/...')
+#2 /home/paroshic/public_html/mechat/manager/index.php(4): include('/home/paroshic/...')
+#3 {main}
+  thrown in /home/paroshic/public_html/mechat/php/functions.php on line 20
+[16-Oct-2018 12:55:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/paroshic/public_html/mechat/php/functions.php:20
+Stack trace:
+#0 /home/paroshic/public_html/mechat/php/functions.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/paroshic/public_html/mechat/manager/php/functions.php(6): include('/home/paroshic/...')
+#2 /home/paroshic/public_html/mechat/manager/index.php(4): include('/home/paroshic/...')
+#3 {main}
+  thrown in /home/paroshic/public_html/mechat/php/functions.php on line 20
+[16-Oct-2018 12:55:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/paroshic/public_html/mechat/php/functions.php:20
+Stack trace:
+#0 /home/paroshic/public_html/mechat/php/functions.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/paroshic/public_html/mechat/manager/php/functions.php(6): include('/home/paroshic/...')
+#2 /home/paroshic/public_html/mechat/manager/index.php(4): include('/home/paroshic/...')
+#3 {main}
+  thrown in /home/paroshic/public_html/mechat/php/functions.php on line 20
+[16-Oct-2018 12:55:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/paroshic/public_html/mechat/php/functions.php:20
+Stack trace:
+#0 /home/paroshic/public_html/mechat/php/functions.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/paroshic/public_html/mechat/manager/php/functions.php(6): include('/home/paroshic/...')
+#2 /home/paroshic/public_html/mechat/manager/index.php(4): include('/home/paroshic/...')
+#3 {main}
+  thrown in /home/paroshic/public_html/mechat/php/functions.php on line 20
+[21-Oct-2018 11:45:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'paroshic_paroshic'@'localhost' to database 'paroshic_paroshic'' in /home/paroshic/public_html/mechat/php/functions.php:20
+Stack trace:
+#0 /home/paroshic/public_html/mechat/php/functions.php(20): PDO->__construct('mysql:host=loca...', 'paroshic_parosh...', 'kxmcwQzLTrTR')
+#1 /home/paroshic/public_html/mechat/manager/php/functions.php(6): include('/home/paroshic/...')
+#2 /home/paroshic/public_html/mechat/manager/index.php(4): include('/home/paroshic/...')
+#3 {main}
+  thrown in /home/paroshic/public_html/mechat/php/functions.php on line 20
+[21-Oct-2018 11:45:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'paroshic_paroshic'@'localhost' to database 'paroshic_paroshic'' in /home/paroshic/public_html/mechat/php/functions.php:20
+Stack trace:
+#0 /home/paroshic/public_html/mechat/php/functions.php(20): PDO->__construct('mysql:host=loca...', 'paroshic_parosh...', 'kxmcwQzLTrTR')
+#1 /home/paroshic/public_html/mechat/manager/php/functions.php(6): include('/home/paroshic/...')
+#2 /home/paroshic/public_html/mechat/manager/index.php(4): include('/home/paroshic/...')
+#3 {main}
+  thrown in /home/paroshic/public_html/mechat/php/functions.php on line 20
+[21-Oct-2018 11:47:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'paroshic_paroshic'@'localhost' to database 'paroshic_paroshic'' in /home/paroshic/public_html/mechat/php/functions.php:20
+Stack trace:
+#0 /home/paroshic/public_html/mechat/php/functions.php(20): PDO->__construct('mysql:host=loca...', 'paroshic_parosh...', 'kxmcwQzLTrTR')
+#1 /home/paroshic/public_html/mechat/manager/php/functions.php(6): include('/home/paroshic/...')
+#2 /home/paroshic/public_html/mechat/manager/index.php(4): include('/home/paroshic/...')
+#3 {main}
+  thrown in /home/paroshic/public_html/mechat/php/functions.php on line 20
+[21-Oct-2018 11:47:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'paroshic_paroshic'@'localhost' to database 'paroshic_paroshic'' in /home/paroshic/public_html/mechat/php/functions.php:20
+Stack trace:
+#0 /home/paroshic/public_html/mechat/php/functions.php(20): PDO->__construct('mysql:host=loca...', 'paroshic_parosh...', 'kxmcwQzLTrTR')
+#1 /home/paroshic/public_html/mechat/manager/php/functions.php(6): include('/home/paroshic/...')
+#2 /home/paroshic/public_html/mechat/manager/index.php(4): include('/home/paroshic/...')
+#3 {main}
+  thrown in /home/paroshic/public_html/mechat/php/functions.php on line 20
+[21-Oct-2018 11:47:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'paroshic_paroshic'@'localhost' to database 'paroshic_paroshic'' in /home/paroshic/public_html/mechat/php/functions.php:20
+Stack trace:
+#0 /home/paroshic/public_html/mechat/php/functions.php(20): PDO->__construct('mysql:host=loca...', 'paroshic_parosh...', 'kxmcwQzLTrTR')
+#1 /home/paroshic/public_html/mechat/manager/php/functions.php(6): include('/home/paroshic/...')
+#2 /home/paroshic/public_html/mechat/manager/index.php(4): include('/home/paroshic/...')
+#3 {main}
+  thrown in /home/paroshic/public_html/mechat/php/functions.php on line 20

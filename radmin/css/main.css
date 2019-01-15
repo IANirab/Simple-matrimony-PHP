@@ -1,0 +1,10 @@
+body{ font-size:15px; font-family:Arial, Helvetica, sans-serif;}
+a{color:#c00023; text-decoration:none;}
+.tittle{ font-size:18px; text-align:right; color:#c00023;}
+.Head_MAin{ text-align:left;}
+.mainFtlink{ font-size:18px; font-weight:normal; text-align:left;}
+.TittleHead th{font-size:18px; text-align:center; color:#fff; background-color:#c00023; padding:10px 0;}
+table td{ padding:10px;}
+.BorderBlk{border-top:1px solid #888484; border-right:1px solid #888484;}
+.BorderBlk td{ border-left:1px solid #888484; border-bottom:1px solid #888484;}
+h3{ text-align:center; margin:0; padding:5px 0;}

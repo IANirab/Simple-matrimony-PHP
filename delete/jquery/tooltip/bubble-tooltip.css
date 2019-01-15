@@ -1,0 +1,49 @@
+#bubble_tooltip{
+	width:302px;
+	position:absolute;
+	display:none;
+	z-index:9999;
+	margin-left:0px;
+	float:left;
+	margin-top:-15px;
+	
+}
+#bubble_tooltip .bubble_top{
+	background-image: url('bubble_top.png');
+	background-repeat:no-repeat;
+	background-position:left top;
+	height:11px;
+}
+#bubble_tooltip .bubble_middle{
+	background-image: url('bubble_middle.gif');
+	background-repeat:repeat-y;	
+	background-position:left top;
+	padding-left:10px;
+	padding-right:10px;
+	text-align:left;
+}
+#bubble_tooltip .bubble_middle span{
+	/*position:absolute;*/
+	top:-8px;
+	font-size:13px;
+	color:#fff;
+	font-weight:normal;
+	text-align:left;
+	vertical-align:middle;
+}
+#bubble_tooltip .bubble_bottom{
+	background-image: url('bubble_bottom.png');
+	background-repeat:no-repeat;
+	background-position:left top;
+	height:23px;
+	/*position:absolute;*/
+	top:-6px;
+}
+
+.hometable1 { width:615px;}
+.tr1:hover td{ color:#333; }
+.tr2:hover td{ color:#333; }
+.td1 { font-size:14px; color:#000000; font-weight:bold; padding-left:10px; vertical-align:middle;}
+.td2 { text-align:center; width:116px;}
+.td3 { text-align:center; width:116px;}
+.td1 img { vertical-align:middle; border:none;}

@@ -1,0 +1,12 @@
+[21-Oct-2018 11:45:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'paroshic_paroshic'@'localhost' to database 'paroshic_paroshic'' in /home/paroshic/public_html/mechat/php/functions.php:20
+Stack trace:
+#0 /home/paroshic/public_html/mechat/php/functions.php(20): PDO->__construct('mysql:host=loca...', 'paroshic_parosh...', 'kxmcwQzLTrTR')
+#1 /home/paroshic/public_html/mechat/php/js.php(4): include('/home/paroshic/...')
+#2 {main}
+  thrown in /home/paroshic/public_html/mechat/php/functions.php on line 20
+[21-Oct-2018 11:47:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'paroshic_paroshic'@'localhost' to database 'paroshic_paroshic'' in /home/paroshic/public_html/mechat/php/functions.php:20
+Stack trace:
+#0 /home/paroshic/public_html/mechat/php/functions.php(20): PDO->__construct('mysql:host=loca...', 'paroshic_parosh...', 'kxmcwQzLTrTR')
+#1 /home/paroshic/public_html/mechat/php/js.php(4): include('/home/paroshic/...')
+#2 {main}
+  thrown in /home/paroshic/public_html/mechat/php/functions.php on line 20
